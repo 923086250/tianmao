@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="shortcut icon" href="../images/iconname.ico">
+		<link href="../Font-Awesome-3.2.1/css/font-awesome.css" rel="stylesheet"/>
+		<style type="text/css">
+			html,body{
+				height: 100%;
+				margin: 0;
+			}
+			#tianmao{
+				width: 1230px;
+				margin: 0 auto;
+			}
+			#tianmao>img{
+				margin: 40px;
+			}
+			#bg-img{
+				width: 100%;
+				
+				background: #E71D3D;
+			}
+			#main-box{
+				width: 1230px;
+				margin: 0 auto;
+				position: relative;
+			}
+			#inputs{
+				width: 350px;
+				height: 400px;
+				position: absolute;
+				background: white;
+				top: 100px;
+				right: 100px;
+			}
+			input[name=account]{
+				font-size: 14px;
+				display: block;
+				width: 300px;
+				height: 42px;
+				box-sizing: border-box;
+				padding-left: 50px;
+				padding-top: 13px;
+				padding-bottom: 13px;
+				padding-right: 8px;
+				border: 1px solid #DDDDDD;
+				margin-bottom: 25px;
+				margin-top: 20px;
+				margin-left: 25px;
+				/*margin: 25px;*/
+			}
+			#psw{
+				display: block;
+				width: 300px;
+				height: 42px;
+				box-sizing: border-box;
+				padding-left: 50px;
+				padding-top: 13px;
+				padding-bottom: 13px;
+				padding-right: 8px;
+				border: 1px solid #DDDDDD;
+				font-size: 15px;
+				margin: 25px;
+			}
+			#p1{
+				font-size: 20px;
+				font-weight: 600;
+				margin: 20px;
+				margin-top: 50px;
+			}
+			#span1,#span2{
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				display: inline-block;
+				background: #DDDDDD;
+				border: 1px solid #CBCBCB;
+				text-align: center;
+				margin-left: 25px;
+				line-height: 40px;
+			}
+			.icon-user{
+				/*display: inline-block;*/
+				height: 30px;
+				font-size: 30px;
+			}
+			.icon-lock{
+				/*display: inline-block;*/
+				height: 30px;
+				font-size: 30px;
+			}
+			#denglu{
+				width: 300px;
+				height: 42px;
+				background: #AF0000;
+				color: white;
+				font-size: 20px;
+				font-weight: 600;
+				margin-left: 25px;
+				border: 2px solid #AF0000;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			#p2>a{
+				color: #6C6C6C;
+				font-size: 13px;
+				margin-top: 30px;
+				overflow: hidden;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#p2>a:nth-of-type(1){
+				margin-left: 200px;
+			}
+			#footer-box{
+				width: 1230px;
+				height: 200px;
+				margin: 0 auto;
+			}
+			
+			#footer-box a{
+				color: black;
+				font-size: 13px;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="tianmao">
+			<img src="../images/登录/img1.jpg"/>
+		</div>
+		<div id="bg-img">
+			<div id="main-box">
+				<img src="../images/登录/img2.png"/>
+				<div id="inputs">
+					<p id="p1">密码登录</p>
+					
+					<form id="login-form">
+						<div id="span1"><span class="icon-user"></span></div>				
+						<input type="text" name="account" required placeholder="手机号/会员名/邮箱" />
+						
+						<div id="span2"><span class="icon-lock"></span></div>
+						<input type="text" name="psw" id="psw" required placeholder="请输入密码"/>
+						
+						<button type="submit"  id="denglu">登录</button>
+					</form>
+
+					<div id="p2">
+						<a href="">忘记密码  </a>
+						<a href="注册.html">  免费注册</a>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<footer>
+			<div id="footer-box">
+				<p>
+					<a href="">关于天猫</a>
+					<a href="">帮助中心</a>
+					<a href="">开放平台</a>
+					<a href="">诚聘英才</a>
+					<a href="">联系我们</a>
+					<a href="">网站合作</a>
+					<a href="">法律声明</a>
+					<a href="">知识产权</a>
+					<a href="">廉政举报</a>
+					<a href="">规则意见征集</a>
+				</p>
+				
+				<p id="footer-p">
+					<a href="">阿里巴巴集团  |</a>
+					<a href="">淘宝网  |</a>
+					<a href="">天猫  |</a>
+					<a href="">聚划算  |</a>
+					<a href="">全球速卖通  |</a>
+					<a href="">阿里巴巴国际交易市场  |</a>
+					<a href="">1688  |</a>
+					<a href="">阿里妈妈  |</a>
+					<a href="">飞猪  |</a>
+					<a href="">阿里云计算  |</a>
+					<a href="">YunOS  |</a>
+					<a href="">阿里通信  |</a>
+					<a href="">万网  |</a>
+					<a href="">高德  |</a>
+					<a href="">UC  |</a>
+					<a href="">友盟  |</a>
+					<a href="">虾米  |</a>
+					<a href="">阿里星球  |</a>
+					<a href="">来往  |</a>
+					<a href="">钉钉  |</a>
+					<a href="">支付宝 </a>
+				</p>
+				<p style="color: #6C6C6C;font-size: 13px;">增值电信业务经营许可证： 浙B2-20110446 网络文化经营许可证：浙网文[2015]0295-065号 互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</p>
+				<p style="color: #6C6C6C;font-size: 13px;margin-top: 20px;margin-bottom: 15px;">© 2003-2016 TMALL.COM 版权所有</p>
+			</div>
+			
+			
+			
+		</footer>
+	</body>
+</html>
+<script src="../libs/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$("#login-form").submit(function(e){
+		e.preventDefault();
+		if(!$("[name=account]").val().match(/^\w{1,6}$/)){
+			alert("用户名格式错误")
+			return;
+		}
+		var data = $("#login-form").serialize();
+		
+		$.post("/login-api",data,function(resData){
+			alert(resData.msg);
+			if(resData.err == 0){
+				location.href = "天猫.html"
+			}
+			if(resData.err == 1){
+				
+				location.href = "注册.html"
+			}
+		})
+		
+	})
+</script>
+
+
+
+
+
+
+
+
